@@ -1,224 +1,76 @@
 {
   "$schema": "data.schema.json",
 
-  "Wykop": {
-    "errorType": "status_code",
-    "url": "https://www.wykop.pl/ludzie/{}/",
-    "urlMain": "https://www.wykop.pl/",
-    "username_claimed": "niebezpiecznik"
-  },
-  "Forum PCLab": {
-    "errorMsg": "Użytkownik nie istnieje",
-    "errorType": "message",
-    "url": "https://forum.pclab.pl/user/{}/",
-    "urlMain": "https://forum.pclab.pl/",
-    "username_claimed": "rafal"
-  },
-  "Elektroda": {
-    "errorType": "status_code",
-    "url": "https://www.elektroda.pl/rtvforum/profile.php?mode=viewprofile&u={}",
-    "urlMain": "https://www.elektroda.pl/",
-    "username_claimed": "quercus"
-  },
-  "OLX": {
-    "errorType": "status_code",
-    "url": "https://www.olx.pl/oferty/uzytkownik/{}/",
-    "urlMain": "https://www.olx.pl/",
-    "username_claimed": "janusz123"
-  },
-  "Allegro": {
-    "errorMsg": "Nie znaleźliśmy użytkownika",
-    "errorType": "message",
-    "url": "https://allegro.pl/uzytkownik/{}",
-    "urlMain": "https://allegro.pl/",
-    "username_claimed": "x-kom"
-  },
-  "GryOnline": {
-    "errorType": "status_code",
-    "url": "https://www.gry-online.pl/S043.asp?ID={}",
-    "urlMain": "https://www.gry-online.pl/",
-    "username_claimed": "21402490"
-  },
-  "Filmweb": {
-    "errorType": "status_code",
-    "url": "https://www.filmweb.pl/user/{}",
-    "urlMain": "https://www.filmweb.pl/",
-    "username_claimed": "KubaK"
-  },
-  "Cda.pl": {
-    "errorType": "status_code",
-    "url": "https://www.cda.pl/{}",
-    "urlMain": "https://www.cda.pl/",
-    "username_claimed": "kronos"
-  },
-  "PeoPay": {
-    "errorMsg": "404",
-    "errorType": "message",
-    "url": "https://www.peopay.pl/user/{}",
-    "urlMain": "https://www.peopay.pl/",
-    "username_claimed": "testuser"
-  },
-  "GitHub": {
-    "errorType": "status_code",
-    "url": "https://github.com/{}",
-    "urlMain": "https://github.com/",
-    "username_claimed": "mirek123"
-  },
-  "YouTube": {
-    "errorType": "status_code",
-    "url": "https://www.youtube.com/@{}",
-    "urlMain": "https://www.youtube.com/",
-    "username_claimed": "Friz"
-  },
-  "Facebook": {
-    "errorMsg": "Ta zawartość jest obecnie niedostępna",
-    "errorType": "message",
-    "url": "https://www.facebook.com/{}",
-    "urlMain": "https://www.facebook.com/",
-    "username_claimed": "onetpl"
-  },
-  "Onet": {
-    "urlMain": "https://www.onet.pl/",
-    "url": "https://konto.onet.pl/profile/{}",
-    "username_claimed": "onetuser",
-    "errorType": "status_code"
-  },
-  "Allegro": {
-    "urlMain": "https://allegro.pl/",
-    "url": "https://allegro.pl/uzytkownik/{}",
-    "username_claimed": "x-kom",
-    "errorType": "message",
-    "errorMsg": "Nie znaleźliśmy użytkownika"
-  },
-  "OLX": {
-    "urlMain": "https://www.olx.pl/",
-    "url": "https://www.olx.pl/oferty/uzytkownik/{}/",
-    "username_claimed": "janusz123",
-    "errorType": "status_code"
-  },
-  "Filmweb": {
-    "urlMain": "https://www.filmweb.pl/",
-    "url": "https://www.filmweb.pl/user/{}",
-    "username_claimed": "KubaK",
-    "errorType": "status_code"
-  },
-  "CDA": {
-    "urlMain": "https://www.cda.pl/",
-    "url": "https://www.cda.pl/{}",
-    "username_claimed": "kronos",
-    "errorType": "status_code"
-  },
-  "Facebook": {
-    "urlMain": "https://www.facebook.com/",
-    "url": "https://www.facebook.com/{}",
-    "username_claimed": "onetpl",
-    "errorType": "message",
-    "errorMsg": "Ta zawartość jest obecnie niedostępna"
-  },
-  "Instagram": {
-    "urlMain": "https://www.instagram.com/",
-    "url": "https://www.instagram.com/{}/",
-    "username_claimed": "instagram",
-    "errorType": "status_code"
-  },
   "Twitter": {
-    "urlMain": "https://twitter.com/",
-    "url": "https://twitter.com/{}",
-    "username_claimed": "x",
-    "errorType": "status_code"
-  },
-  "LinkedIn": {
-    "urlMain": "https://www.linkedin.com/",
-    "url": "https://www.linkedin.com/in/{}",
-    "username_claimed": "jan-kowalski",
-    "errorType": "status_code"
-  },
-  "Steam": {
-    "urlMain": "https://steamcommunity.com/",
-    "url": "https://steamcommunity.com/id/{}",
-    "username_claimed": "gaben",
-    "errorType": "status_code"
-  },
-  "TVN24": {
-    "urlMain": "https://tvn24.pl/",
-    "url": "https://tvn24.pl/profil/{}",
-    "username_claimed": "tvnwidz",
-    "errorType": "status_code"
-  },
-  "RMF FM": {
-    "urlMain": "https://www.rmf.fm/",
-    "url": "https://www.rmf.fm/sluchacze/{}",
-    "username_claimed": "sluchaczRMF",
-    "errorType": "status_code"
-  },
-  "Pornhub": {
-    "urlMain": "https://www.pornhub.com/",
-    "url": "https://www.pornhub.com/users/{}",
-    "username_claimed": "lana",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "Xvideos": {
-    "urlMain": "https://www.xvideos.com/",
-    "url": "https://www.xvideos.com/profiles/{}",
-    "username_claimed": "testuser",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "Xhamster": {
-    "urlMain": "https://xhamster.com/",
-    "url": "https://xhamster.com/users/{}",
-    "username_claimed": "bigt",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "Redtube": {
-    "urlMain": "https://www.redtube.com/",
-    "url": "https://www.redtube.com/users/{}",
-    "username_claimed": "user123",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "YouPorn": {
-    "urlMain": "https://www.youporn.com/",
-    "url": "https://www.youporn.com/user/{}",
-    "username_claimed": "bestguy",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "Roksa": {
-    "urlMain": "https://roksa.pl/",
-    "url": "https://roksa.pl/profil,{}",
-    "username_claimed": "aneta-warszawa",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "Erodate": {
-    "urlMain": "https://www.erodate.pl/",
-    "url": "https://www.erodate.pl/uzytkownik/{}",
-    "username_claimed": "adam34",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "LiveJasmin": {
-    "urlMain": "https://www.livejasmin.com/",
-    "url": "https://www.livejasmin.com/en/member/{}",
-    "username_claimed": "sweetgirl",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "BongaCams": {
-    "urlMain": "https://pl.bongacams.com/",
-    "url": "https://pl.bongacams.com/{}",
-    "username_claimed": "bongagirl",
-    "errorType": "status_code",
-    "isNSFW": true
-  },
-  "Datezone": {
-    "urlMain": "https://datezone.com/",
-    "url": "https://datezone.com/pl/profile/{}",
-    "username_claimed": "testname",
-    "errorType": "status_code",
-    "isNSFW": true
-  }  
+  "urlMain": "https://twitter.com/",
+  "url": "https://twitter.com/{}",
+  "username_claimed": "jack",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "Sorry, that page doesn’t exist!"
+},
+"Instagram": {
+  "urlMain": "https://www.instagram.com/",
+  "url": "https://www.instagram.com/{}/",
+  "username_claimed": "instagram",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "Sorry, this page isn't available."
+},
+"GitHub": {
+  "urlMain": "https://github.com/",
+  "url": "https://github.com/{}",
+  "username_claimed": "torvalds",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "Not Found"
+},
+"Reddit": {
+  "urlMain": "https://www.reddit.com/",
+  "url": "https://www.reddit.com/user/{}",
+  "username_claimed": "spez",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "Sorry, nobody on Reddit goes by that name."
+},
+"LinkedIn": {
+  "urlMain": "https://www.linkedin.com/",
+  "url": "https://www.linkedin.com/in/{}",
+  "username_claimed": "billgates",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "status",
+  "errorMsg": "404"
+},
+"Facebook": {
+  "urlMain": "https://www.facebook.com/",
+  "url": "https://www.facebook.com/{}",
+  "username_claimed": "zuck",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "Sorry, this content isn't available right now"
+},
+"Twitch": {
+  "urlMain": "https://www.twitch.tv/",
+  "url": "https://www.twitch.tv/{}",
+  "username_claimed": "ninja",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "Sorry. Unless you’ve got a time machine, that content is unavailable."
+},
+"Spotify": {
+  "urlMain": "https://open.spotify.com/",
+  "url": "https://open.spotify.com/user/{}",
+  "username_claimed": "spotify",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "User not found"
+},
+"TikTok": {
+  "urlMain": "https://www.tiktok.com/",
+  "url": "https://www.tiktok.com/@{}",
+  "username_claimed": "charlidamelio",
+  "username_unclaimed": "SherlockUnclaimedTest123456",
+  "errorType": "message",
+  "errorMsg": "Sorry, this page isn’t available."
+  }
 }
