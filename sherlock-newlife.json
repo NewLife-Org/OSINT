@@ -33,14 +33,6 @@
   "errorType": "message",
   "errorMsg": "Sorry, nobody on Reddit goes by that name."
 },
-"LinkedIn": {
-  "urlMain": "https://www.linkedin.com/",
-  "url": "https://www.linkedin.com/in/{}",
-  "username_claimed": "billgates",
-  "username_unclaimed": "SherlockUnclaimedTest123456",
-  "errorType": "status",
-  "errorMsg": "404"
-},
 "Facebook": {
   "urlMain": "https://www.facebook.com/",
   "url": "https://www.facebook.com/{}",
