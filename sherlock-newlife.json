@@ -1,0 +1,91 @@
+{
+  "$schema": "data.schema.json",
+  
+  "Wykop": {
+    "errorType": "status_code",
+    "url": "https://www.wykop.pl/ludzie/{}/",
+    "urlMain": "https://www.wykop.pl/",
+    "username_claimed": "niebezpiecznik"
+  },
+  
+  "Forum PCLab": {
+    "errorMsg": "Użytkownik nie istnieje",
+    "errorType": "message",
+    "url": "https://forum.pclab.pl/user/{}/",
+    "urlMain": "https://forum.pclab.pl/",
+    "username_claimed": "rafal"
+  },
+
+  "Elektroda": {
+    "errorType": "status_code",
+    "url": "https://www.elektroda.pl/rtvforum/profile.php?mode=viewprofile&u={}",
+    "urlMain": "https://www.elektroda.pl/",
+    "username_claimed": "quercus"
+  },
+
+  "OLX": {
+    "errorType": "status_code",
+    "url": "https://www.olx.pl/oferty/uzytkownik/{}/",
+    "urlMain": "https://www.olx.pl/",
+    "username_claimed": "janusz123"
+  },
+
+  "Allegro": {
+    "errorMsg": "Nie znaleźliśmy użytkownika",
+    "errorType": "message",
+    "url": "https://allegro.pl/uzytkownik/{}",
+    "urlMain": "https://allegro.pl/",
+    "username_claimed": "x-kom"
+  },
+
+  "GryOnline": {
+    "errorType": "status_code",
+    "url": "https://www.gry-online.pl/S043.asp?ID={}",
+    "urlMain": "https://www.gry-online.pl/",
+    "username_claimed": "21402490"
+  },
+
+  "Filmweb": {
+    "errorType": "status_code",
+    "url": "https://www.filmweb.pl/user/{}",
+    "urlMain": "https://www.filmweb.pl/",
+    "username_claimed": "KubaK"
+  },
+
+  "Cda.pl": {
+    "errorType": "status_code",
+    "url": "https://www.cda.pl/{}",
+    "urlMain": "https://www.cda.pl/",
+    "username_claimed": "kronos"
+  },
+
+  "PeoPay": {
+    "errorMsg": "404",
+    "errorType": "message",
+    "url": "https://www.peopay.pl/user/{}",
+    "urlMain": "https://www.peopay.pl/",
+    "username_claimed": "testuser"
+  },
+
+  "GitHub": {
+    "errorType": "status_code",
+    "url": "https://github.com/{}",
+    "urlMain": "https://github.com/",
+    "username_claimed": "mirek123"
+  },
+
+  "YouTube": {
+    "errorType": "status_code",
+    "url": "https://www.youtube.com/@{}",
+    "urlMain": "https://www.youtube.com/",
+    "username_claimed": "Friz"
+  },
+
+  "Facebook": {
+    "errorMsg": "Ta zawartość jest obecnie niedostępna",
+    "errorType": "message",
+    "url": "https://www.facebook.com/{}",
+    "urlMain": "https://www.facebook.com/",
+    "username_claimed": "onetpl"
+  }
+}
