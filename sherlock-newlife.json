@@ -1,6 +1,5 @@
 {
-  "$schema": "data.schema.json",
-  
+  "$schema": "data.schema.json", 
 "Pornhub": {
   "urlMain": "https://www.pornhub.com/",
   "url": "https://www.pornhub.com/users/{}",
